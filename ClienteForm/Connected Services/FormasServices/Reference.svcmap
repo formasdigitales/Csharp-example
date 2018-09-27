@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c36b0592-0295-4c24-a04b-f82dd4c1e12e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://dev33.facturacfdi.mx/WSTimbradoCFDIService?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WSTimbradoCFDIService.xsd" MetadataType="Schema" ID="6d813fea-20d1-49bb-80e3-e6e67e9cb10d" SourceId="1" SourceUrl="http://dev33.facturacfdi.mx/WSTimbradoCFDIService?xsd=3" />
+    <MetadataFile FileName="xmlmime.xsd" MetadataType="Schema" ID="aa110322-e94b-46d9-af3a-7ed0314e9aa6" SourceId="1" SourceUrl="http://www.w3.org/2005/05/xmlmime.xsd" />
+    <MetadataFile FileName="WSTimbradoCFDIService.wsdl" MetadataType="Wsdl" ID="659dbc67-d79a-4cf7-bf3c-b66ce39d82d6" SourceId="1" SourceUrl="http://dev33.facturacfdi.mx/WSTimbradoCFDIService?wsdl" />
+    <MetadataFile FileName="WSTimbradoCFDIService1.xsd" MetadataType="Schema" ID="d02a344e-0b0f-4b71-87d3-4feca38c719b" SourceId="1" SourceUrl="http://dev33.facturacfdi.mx/WSTimbradoCFDIService?xsd=2" />
+    <MetadataFile FileName="WSTimbradoCFDIService2.xsd" MetadataType="Schema" ID="eded3482-dacb-4537-840f-1a02e02a8b63" SourceId="1" SourceUrl="http://dev33.facturacfdi.mx/WSTimbradoCFDIService?xsd=1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
