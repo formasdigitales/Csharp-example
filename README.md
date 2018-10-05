@@ -3,6 +3,8 @@ Ejemplo de Timbrado con C#
 
 Este ejemplo nos muestra como timbrar con c# a nuestro webservice de pruebas.
 
+![Cliente formas digitales](https://www.formasdigitales.mx/images/github/clientecsharp.png)
+
 Contamos con las clase _ClienteFormasDigitales_ que es la que nos ayuda a agregar los datos del numero de certificado, el sello y el certificado en el cfdi que enviaremos al servicio web para poder timbrarlo.
 
 Esta clase se inicializa enviandole el path del xml:
